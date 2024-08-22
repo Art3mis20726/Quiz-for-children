@@ -12,7 +12,7 @@ export default function Quiz() {
   const [loadingPercentage, setLoadingPercentage] = useState(0); // Loading percentage state
   const [displayedQuestionIds, setDisplayedQuestionIds] = useState([]); // Track displayed question IDs
   const [maxReached, setMaxReached] = useState(false); // Track if max questions reached
-  const maxQuestions = 5; // Maximum number of questions to display
+  const maxQuestions = 10; // Maximum number of questions to display
 
   const fetchQuestion = async () => {
     try {
