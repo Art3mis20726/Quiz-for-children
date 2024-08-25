@@ -273,7 +273,7 @@ const QuizzesList = () => {
           <EditQuizModal
             isOpen={isEditModalOpen}
             onClose={closeEditModal}
-            onEdit={handleEditQuizName}
+            onConfirm={handleEditQuizName}
             quiz={quizToEdit}
           />
         )}
