@@ -4,7 +4,7 @@ import cookieParser from "cookie-parser"
 
 const app= express()
 app.use(cors({
-    origin:['http://localhost:3000','http://127.0.0.1:3000','https://quiz-for-children.onrender.com'],
+    origin:['http://localhost:5173','http://127.0.0.1:3000','https://quiz-for-children.onrender.com'],
     credentials:true
 }))
 app.use(express.json({
